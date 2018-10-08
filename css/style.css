@@ -1,0 +1,16 @@
+.screen-saver{
+    display: none;
+    transition: all 0.5s;
+}
+
+.screen-saver img{
+    max-width: 80%;
+    max-height: 80%;
+    position:absolute;
+    transition: all 0.7s;
+    opacity: 1;
+}
+
+.active{
+    display: block;
+}
